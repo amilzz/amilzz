@@ -1,0 +1,62 @@
+#using beagle files from mmiller
+bamlist1_omy_adm.beagle.gz
+
+#using script /home/amilzz/projects/LCT/admix/admix2.sh
+
+less admix2.sh
+  #!/bin/bash
+
+  ### Calculate admixture 
+
+  list=$1
+  num_k=5
+  x=2
+  while [ $x -le $num_k ]
+  do
+        /home/mlyjones/bin/angsd_dir/misc/NGSadmix -likes $list -K $x -o ${list}_${x}
+       
+    x=$(( $x + 1 ))
+  done
+
+
+#to run the script
+sbatch -t 120:00:00 -p high --mem 5G admix2.sh bamlist1_omy_adm.beagle.gz
+
+#to check that it's running
+smap -c | grep amilzz
+
+Downloading data from terminal to desktop
+#log on
+sftp yourremote-system ##and type your password
+
+#close the connection
+sftp> bye
+
+#change to target-directory
+sftp> lcd 
+
+#change to source-directory
+sftp> cd 
+
+#check for permission to source file
+sftp> ls -l
+
+#to copy
+sftp> get yourfilename 
+
+#close connection
+sftp> bye
+
+#Plotting admix in R
+
+#read in the data
+q<-read.table("~/Desktop/bamlist1_omy_adm.beagle.gz_5.qopt")
+
+#plot
+barplot(t(q),
+        col=1:5,
+        las=2,
+        space=0,
+        border=NA,
+        xlab="Individuals",
+        ylab="Admixture proportions for K=5")
