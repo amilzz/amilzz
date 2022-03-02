@@ -1,0 +1,102 @@
+##unzipped files .fastq.gz -> .fastq
+
+##split by plate
+#used the following two scripts
+  run_split.sh 
+  BarcodeSplitList3Files.pl #this is a perl script and executes within the run_split.sh script
+
+$ less run_split.sh
+
+  #!/bin/bash
+
+  r1=$1
+  r2=$2
+  r3=$3
+  out=$4
+
+  perl BarcodeSplitList3Files.pl $r1 $r2 $r3 CCGTTT,AACGTT,TCAGTT,CGTCTT,TAGCTT,GATATT,CTCATT,TCTTGT,CGCTGT,GTATGT,CATGGT,GGGGGT,AAGAGT,GCCAGT,ATGGCT,TGCGCT,GACCCT,ACACCT,CCTACT,TTAACT,TACTAT,TTTGAT,GTGCAT,CAACAT,CGGAAT,TTTTTG,CGATTG,GAGGTG,TGCCTG,AGTATG,AAATGG,ACCGGG,TTAGGG,CCTCGG,ATGCGG,GTTAGG,GCCTCG,TCTGCG,CACGCG,GGACCG,TAGACG,ATCACG,CTGTAG,GGCGAG,TCGCAG,AACCAG,CATAAG,GCAAAG,CATTTC,TGGTTC,GTCGTC,AGAGTC,TCTCTC,ACGATC,ATCTGC,CCATGC,TACGGC,GGTCGC,CAGCGC,TTGAGC,AAGTCC,CTTGCC,GCGCCC,CGCCCC,TGTACC,CAAACC,ACTTAC,GGATAC,GATGAC,AGGCAC,TTACAC,TCCAAC,AGCTTA,GAATTA,TGTGTA,CCCGTA,ATACTA,GTGATA,CTTTGA,GCAGGA,AATCGA,TGGCGA,GTCCGA,CCGAGA,AGAAGA,GGTTCA,TTGTCA,CGGGCA,TAAGCA,TCCCCA,TCATAA,ACGGAA,CTAGAA,GCTCAA,ATTAAA,GACAAA,CGATGT,TTAGGC,TGACCA,ACAGTG,GCCAAT,CAGATC,ACTTGA,GATCAG,GGCTAC,CTTGTA,AGTCAA,AGTTCC,ATGTCA,CCGTCC,GTCCGC,GTGAAA,GTGGCC,GTTTCG,CGTACG,GAGTGG,ACTGAT,ATTCCT $out
+
+$ less BarcodeSplitList3Files.pl
+
+#!/usr/bin/perl
+
+if ($#ARGV == 4) {
+        $fileR1 = $ARGV[0];
+        $fileR2 = $ARGV[1];
+        $fileR3 = $ARGV[2];
+        $barcode = $ARGV[3];
+        $prefix = $ARGV[4];
+} else {
+        die;    
+}
+
+@commas = split(/\,/, $barcode);
+
+$x=0;
+while ($x <= $#commas) {
+
+        $hashR1{$commas[$x]} = $prefix . "_R1_" . $commas[$x] . ".fastq";
+        $filenameR1 = $hashR1{$commas[$x]};
+        open($filenameR1, ">$filenameR1") or die;
+
+        $hashR2{$commas[$x]} = $prefix . "_R2_" . $commas[$x] . ".fastq";
+        $filenameR2 = $hashR2{$commas[$x]};
+        open($filenameR2, ">$filenameR2") or die;
+
+        $hashR3{$commas[$x]} = $prefix . "_R3_" . $commas[$x] . ".fastq";
+        $filenameR3 = $hashR3{$commas[$x]};
+        open($filenameR3, ">$filenameR3") or die;
+
+        $x++;
+}
+
+
+open(FILER1, "<$fileR1") or die;
+open(FILER2, "<$fileR2") or die;
+open(FILER3, "<$fileR3") or die;
+
+
+while (<FILER1>) {
+
+        $R1_l1 = $_;
+        $R1_l2 = <FILER1>;
+        $R1_l3 = <FILER1>;
+        $R1_l4 = <FILER1>;
+        
+        $R2_l1 = <FILER2>;
+        $R2_l2 = <FILER2>;
+        $R2_l3 = <FILER2>;
+        $R2_l4 = <FILER2>;
+
+        $R3_l1 = <FILER3>;
+        $R3_l2 = <FILER3>;
+        $R3_l3 = <FILER3>;
+        $R3_l4 = <FILER3>;
+
+        $bc = substr($R2_l2,0,6);
+        
+        if ($hashR1{$bc} ne "")  {
+        
+                $F1 = $hashR1{$bc}; $F2 = $hashR2{$bc}; $F3 = $hashR3{$bc};
+                print $F1 $R1_l1 . $R1_l2 . $R1_l3 . $R1_l4;
+                print $F2 $R2_l1 . $R2_l2 . $R2_l3 . $R2_l4;
+                print $F3 $R3_l1 . $R3_l2 . $R3_l3 . $R3_l4;
+
+        }
+
+}
+close FILER1; close FILER2; close FILER3;
+
+$x=0;
+while ($x <= $#commas) {
+        $F1 = $hashR1{$commas[$x]}; $F2 = $hashR2{$commas[$x]}; $F3 = $hashR3{$commas[$x]};
+        close($F1); close($F2); close($F3);
+        $x++;
+}
+
+
+##In order to run need to use the following command
+ $ sbatch -t 8:00:00 run_split.sh SOMM*Yourfile*_S1_L001_R1_001.fastq SOMM*Yourfile*_S1_L001_R2_001.fastq SOMM*Yourfile*_S1_L001_R3_001.fastq SOMM*Yourfile*
+
+
+
