@@ -24,11 +24,78 @@ Anyting put in data, outputs, bams or ends with .html won't be synced via github
 
 ## Data Location    
 
-`/home/amilzz/projects/LCT/BMAG072/raw2/lane3`
-`/home/amilzz/projects/LCT/BMAG072/raw2/lane4`
+`/home/amilzz/projects/LCT/BMAG072/raw2/lane3`     
+`/home/amilzz/projects/LCT/BMAG072/raw2/lane4`     
 
-Expect to work the best: /home/amilzz/projects/LCT/BMAG072/raw2/lane3/LibPlate10_WWH2_R1.fastq
+Expect to work the best: /home/amilzz/projects/LCT/BMAG072/raw2/lane3/LibPlate10_WWH2_R1.fastq      
 
-I'll set up on FARM like so:
+I'll set up on FARM like so:       
+
+`(base) maccamp@farm:~$ git clone https://github.com/amilzz/amilzz`     
+`(base) maccamp@farm:~$ cd amilzz/`       
+`(base) maccamp@farm:~/amilzz$ mkdir data`      
+`(base) maccamp@farm:~/amilzz$ mkdir data/lane3`      
+`(base) maccamp@farm:~/amilzz$ mkdir data/lane4`
+`(base) maccamp@farm:~/amilzz$ cd data/lane3/`    
+`(base) maccamp@farm:~/amilzz/data/lane3$ ln -s /home/amilzz/projects/LCT/BMAG072/raw2/lane3/LibPlate10_WWH2_R1.fastq `      
+`(base) maccamp@farm:~/amilzz/data/lane3$ ln -s /home/amilzz/projects/LCT/BMAG072/raw2/lane3/LibPlate10_WWH2_R2.fastq `      
+`(base) maccamp@farm:~/amilzz/data/lane3$ cd ../lane4`
+`(base) maccamp@farm:~/amilzz/data/lane4$ ln -s /home/amilzz/projects/LCT/BMAG072/raw2/lane4/LibPlate10_WWH2_R1.fastq`      
+`(base) maccamp@farm:~/amilzz/data/lane4$ ln -s /home/amilzz/projects/LCT/BMAG072/raw2/lane4/LibPlate10_WWH2_R2.fastq`    
+
+This will have two subdirs in data for each lane, working from amilzz, I can combine these with cat.     
+````{sh, eval=FALSE}
+
+mkdir data/combined
+#this is an inefficient way to do this, but basically:
+cat data/lane3/LibPlate10_WWH2_R1.fastq data/lane4/LibPlate10_WWH2_R1.fastq > data/combined/LibPlate10-combined-R1.fastq
+#yawn. 
+cat data/lane3/LibPlate10_WWH2_R2.fastq data/lane4/LibPlate10_WWH2_R2.fastq > data/combined/LibPlate10-combined-R2.fastq &
+```
+
+
+
+# Splitting    
+We can use one of the existing perl scripts (https://ryanpeek.github.io/radseq/downloading_illumina.html) or all three!   
+
+Using just one:      
+```{sh}
+head scripts/BarcodeSplitListBestRadPairedEnd.pl
+```
+
+This tells us the interpreter (perl) and that it takes four inputs. the input fastqs, a barcode, and a prefix of your choice.    
+
+Something like:     
+` BarcodeSplitListBestRadPairedEnd.pl plate1_R1.fastq plate1_R2.fastq GGATCCTGTATGCAGG Y21_0027_CAR`     
+
+In the LCT data:     
+`grep "GGATCCTGTATGCAGG" --color data/lane3/LibPlate10_WWH2_R1.fastq | head`      
+GGATCCTGTATGCAGGAAGAGTACCACATGAGGGAGGAGGATGTCTTCCCTGTAACGCACAGCGTTGAGATTGCCTGCAATGACAACAAGCTCAGTCCGATGATGCTGTGACACACCGGCCCAGACCATGACAGACCCTCCACCTCCAAAT       
+GGATCCTGTATGCAGGGCCAGCTGGGCCATGCCAGAGAGGAGCTCCACACCGCCATCCTCAGGGTGAGCCCCAAACTGCATCCTGCCCCTCCGCAACGATCCCCATTGTGTTCCACTCAGACGATTAGCACTGAGATATAGTGGTACATAA       
+GGATCCTGTATGCAGGGCCTGGGATTAAAAATAATACAATATATACAGTGCCTTGCGAAAGTATTCGGCCCCCTTGAACTTTGCGACCTTTTGCCACATTTCAGGCTTCAAACATAAAGATATAAAACTGTATTTTGTTTGTGAAGAATCA        
+
+GG - > tells us the restriction enzyme.     
+ATCCTGTA - > barcode bit    
+TGCAGG -> the end bit     
+
+Many options here, but all these tasks are independent. A text file of bash commands can be run different ways, sequentially, or iteratively. Say for instance to combine all the fastqs, or in this case, to run a bunch of tasks.
+
+I can reorganize the barcodes to match and create a list of commands to run the miller lab script using a dummy metadata file to a dummy out directory like so:    
+```{sh}
+cat meta/dummy.txt | grep -v "Barcode" |  awk '{print " BarcodeSplitListBestRadPairedEnd.pl", "data/combined/"$1"-R1.fastq", "data/combined/"$1"-R2.fastq", "GG"$3"TGCAGG", "data/dummy/"$4}' > 100.1-demulti-LibPlate10.sh
+```
+
+On Farm, cut and paste a line and see if it works.
+```{sh, eval=FALSE}
+BarcodeSplitListBestRadPairedEnd.pl data/combined/LibPlate10-combined-R1.fastq data/combined/LibPlate10-combined-R2.fastq GGACAAGCTATGCAGG data/dummy/Omy-001
+```
+       
+
+So, this is complicated.
+
+# Splitting another way
+
+Ensieh put together a set of scripts.  
+
 
 
