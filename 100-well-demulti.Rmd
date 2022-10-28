@@ -54,8 +54,35 @@ cat data/lane3/LibPlate10_WWH2_R2.fastq data/lane4/LibPlate10_WWH2_R2.fastq > da
 ```
 
 
+# Splitting one way
 
-# Splitting    
+Ensieh put together a set of scripts.  
+
+`(base) maccamp@farm:~/amilzz/data/combined$ ls *R1*.fastq > listR1`    
+`(base) maccamp@farm:~/amilzz/data/combined$ ls *R2*.fastq > listR2`     
+`ls Lib*R1* | sed "s/-R1//g" | sed "s/\.fastq//g" | paste listR1 listR2 - > flist`      
+
+Now, we need all the scripts it is going to use in the directory it is executed in and a slumrout file.    
+`mkdir slurmout`
+`ln -s ../../scripts/*.* .`   
+
+
+
+Don't need a bunch of these scripts.         
+
+` rm prerun_wellsplit.sh prerun_wellsplit.txt run_wellsplit.txt run_BestRadSplit.txt run_BestRadSplit_PstI.*`      
+
+`(base) maccamp@farm:~/amilzz/data/combined$ sbatch run_wellsplit.sh flist `       
+
+
+Ensieh notes:    
+_0_ in the current directory, make a directory called "slurmout": mkdir slurmout # to put the slurm files in different directory       
+_1_  run "prerun_wellsplit.sh":  sbatch prerun_wellsplit.sh
+_2_  run "run_wellsplit.sh":  sbatch run_wellsplit.sh flist 
+
+I didn't follow these because the naming of the files wouldn't do. So I made a "flist" file myself.    
+
+# Splitting another way    
 We can use one of the existing perl scripts (https://ryanpeek.github.io/radseq/downloading_illumina.html) or all three!   
 
 Using just one:      
@@ -93,9 +120,11 @@ BarcodeSplitListBestRadPairedEnd.pl data/combined/LibPlate10-combined-R1.fastq d
 
 So, this is complicated.
 
-# Splitting another way
 
-Ensieh put together a set of scripts.  
+
+
+
+
 
 
 
