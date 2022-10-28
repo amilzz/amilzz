@@ -139,6 +139,8 @@ reverse<-meta %>%
   select(Command)
 
 write_tsv(bind_rows(forward,reverse), "100.3-batch-rename.sh")
-reverse
 ```
+
+Now data/align has all the fastqs renamed.     
+
 
