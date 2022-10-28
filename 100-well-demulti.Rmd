@@ -77,7 +77,7 @@ Don't need a bunch of these scripts.
 
 Ensieh notes:    
 _0_ in the current directory, make a directory called "slurmout": mkdir slurmout # to put the slurm files in different directory       
-_1_  run "prerun_wellsplit.sh":  sbatch prerun_wellsplit.sh
+_1_  run "prerun_wellsplit.sh":  sbatch prerun_wellsplit.sh     
 _2_  run "run_wellsplit.sh":  sbatch run_wellsplit.sh flist 
 
 I didn't follow these because the naming of the files wouldn't do. So I made a "flist" file myself.    
