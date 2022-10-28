@@ -62,6 +62,9 @@ Ensieh put together a set of scripts.
 `(base) maccamp@farm:~/amilzz/data/combined$ ls *R2*.fastq > listR2`     
 `ls Lib*R1* | sed "s/-R1//g" | sed "s/\.fastq//g" | paste listR1 listR2 - > flist`      
 
+flist looksl like this:      
+`LibPlate10-combined-R1.fastq	LibPlate10-combined-R2.fastq	LibPlate10-combined`      
+
 Now, we need all the scripts it is going to use in the directory it is executed in and a slumrout file.    
 `mkdir slurmout`
 `ln -s ../../scripts/*.* .`   
