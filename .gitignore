@@ -1,5 +1,6 @@
 /data/
 /outputs/
+/bams/
 *html
 **.DS_Store
 

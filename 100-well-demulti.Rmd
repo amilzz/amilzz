@@ -1,0 +1,34 @@
+---
+title: "100-well-demulti"
+author: "Mac Campbell"
+date: "2022-10-28"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+```
+
+The point of this file is to set up a well demultiplex of inline barcode RAD data.
+
+# Organization notes
+I have made a .gitignore file that contains:    
+
+```{sh}
+head .gitignore
+```
+
+Anyting put in data, outputs, bams or ends with .html won't be synced via github.     
+
+
+
+## Data Location    
+
+`/home/amilzz/projects/LCT/BMAG072/raw2/lane3`
+`/home/amilzz/projects/LCT/BMAG072/raw2/lane4`
+
+Expect to work the best: /home/amilzz/projects/LCT/BMAG072/raw2/lane3/LibPlate10_WWH2_R1.fastq
+
+I'll set up on FARM like so:
+
+
