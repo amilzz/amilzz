@@ -39,7 +39,7 @@ I'll set up on FARM like so:
 `(base) maccamp@farm:~$ cd amilzz/`       
 `(base) maccamp@farm:~/amilzz$ mkdir data`      
 `(base) maccamp@farm:~/amilzz$ mkdir data/lane3`      
-`(base) maccamp@farm:~/amilzz$ mkdir data/lane4`
+`(base) maccamp@farm:~/amilzz$ mkdir data/lane4`     
 `(base) maccamp@farm:~/amilzz$ cd data/lane3/`    
 `(base) maccamp@farm:~/amilzz/data/lane3$ ln -s /home/amilzz/projects/LCT/BMAG072/raw2/lane3/LibPlate10_WWH2_R1.fastq `      
 `(base) maccamp@farm:~/amilzz/data/lane3$ ln -s /home/amilzz/projects/LCT/BMAG072/raw2/lane3/LibPlate10_WWH2_R2.fastq `      
@@ -140,6 +140,8 @@ reverse<-meta %>%
 
 write_tsv(bind_rows(forward,reverse), "100.3-batch-rename.sh")
 ```
+
+`bash 100.3-batch-rename.sh` to execute all these commands.   
 
 Now data/align has all the fastqs renamed.     
 
