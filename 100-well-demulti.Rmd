@@ -69,9 +69,9 @@ Ensieh put together a set of scripts.
 flist looksl like this:      
 `LibPlate10-combined-R1.fastq	LibPlate10-combined-R2.fastq	LibPlate10-combined`      
 
-Now, we need all the scripts it is going to use in the directory it is executed in and a slumrout file.    
-`mkdir slurmout`
-`ln -s ../../scripts/*.* .`   
+Now, we need all the scripts it is going to use in the directory it is executed in and a slurmout file.    
+`mkdir slurmout`      
+`ln -s ../../scripts/*.* .`     
 
 
 
