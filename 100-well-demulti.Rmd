@@ -9,6 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
 ```
 
+```{r}
+library(tidyverse)
+```
+
 The point of this file is to set up a well demultiplex of inline barcode RAD data.
 
 # Organization notes
@@ -18,7 +22,7 @@ I have made a .gitignore file that contains:
 head .gitignore
 ```
 
-Anyting put in data, outputs, bams or ends with .html won't be synced via github.     
+Anything put in data, outputs, bams or ends with .html won't be synced via github.     
 
 
 
@@ -85,49 +89,56 @@ _2_  run "run_wellsplit.sh":  sbatch run_wellsplit.sh flist
 
 I didn't follow these because the naming of the files wouldn't do. So I made a "flist" file myself.    
 
-# Splitting another way    
-We can use one of the existing perl scripts (https://ryanpeek.github.io/radseq/downloading_illumina.html) or all three!   
+   
 
-Using just one:      
+# Batch combining plates
+
+One way is to put all the commands in a text file and execute with parallel.     
+
+That is a file that looks like:
+
 ```{sh}
-head scripts/BarcodeSplitListBestRadPairedEnd.pl
+head 100.2-batch-combine-example.sh
 ```
 
-This tells us the interpreter (perl) and that it takes four inputs. the input fastqs, a barcode, and a prefix of your choice.    
+This can be executed like so on the FARM:    
 
-Something like:     
-` BarcodeSplitListBestRadPairedEnd.pl plate1_R1.fastq plate1_R2.fastq GGATCCTGTATGCAGG Y21_0027_CAR`     
-
-In the LCT data:     
-`grep "GGATCCTGTATGCAGG" --color data/lane3/LibPlate10_WWH2_R1.fastq | head`      
-GGATCCTGTATGCAGGAAGAGTACCACATGAGGGAGGAGGATGTCTTCCCTGTAACGCACAGCGTTGAGATTGCCTGCAATGACAACAAGCTCAGTCCGATGATGCTGTGACACACCGGCCCAGACCATGACAGACCCTCCACCTCCAAAT       
-GGATCCTGTATGCAGGGCCAGCTGGGCCATGCCAGAGAGGAGCTCCACACCGCCATCCTCAGGGTGAGCCCCAAACTGCATCCTGCCCCTCCGCAACGATCCCCATTGTGTTCCACTCAGACGATTAGCACTGAGATATAGTGGTACATAA       
-GGATCCTGTATGCAGGGCCTGGGATTAAAAATAATACAATATATACAGTGCCTTGCGAAAGTATTCGGCCCCCTTGAACTTTGCGACCTTTTGCCACATTTCAGGCTTCAAACATAAAGATATAAAACTGTATTTTGTTTGTGAAGAATCA        
-
-GG - > tells us the restriction enzyme.     
-ATCCTGTA - > barcode bit    
-TGCAGG -> the end bit     
-
-Many options here, but all these tasks are independent. A text file of bash commands can be run different ways, sequentially, or iteratively. Say for instance to combine all the fastqs, or in this case, to run a bunch of tasks.
-
-I can reorganize the barcodes to match and create a list of commands to run the miller lab script using a dummy metadata file to a dummy out directory like so:    
-```{sh}
-cat meta/dummy.txt | grep -v "Barcode" |  awk '{print " BarcodeSplitListBestRadPairedEnd.pl", "data/combined/"$1"-R1.fastq", "data/combined/"$1"-R2.fastq", "GG"$3"TGCAGG", "data/dummy/"$4}' > 100.1-demulti-LibPlate10.sh
-```
-
-On Farm, cut and paste a line and see if it works.
 ```{sh, eval=FALSE}
-BarcodeSplitListBestRadPairedEnd.pl data/combined/LibPlate10-combined-R1.fastq data/combined/LibPlate10-combined-R2.fastq GGACAAGCTATGCAGG data/dummy/Omy-001
+srun -p high -t 2:00:00 --nodes=1 parallel -j 2 < 100.2-batch-combine-example.sh > data/combined/std.out 2>data/combined/std.err &
+
 ```
-       
 
-So, this is complicated.
-
+-j indicates the number of commands to run in parallel, so adjust accordingly.
 
 
+# Renaming
 
+This can be done at many different times. Using the demultiplexed files in data/combined I'll move them to data/split. These also can be made as links.     
 
+```{r}
+meta<-read_csv("meta/WWH2_libraryPlate10.csv")
+meta
+```
 
+Our files look like LibPlate10-combined_RA_GGAAACATCGTGCAGG.fastq and so on. I'll put them in a directory data/align on FARM. (mkdir data/align)
 
+```{r}
+forward<-meta %>% 
+  mutate(Command=paste0("mv data/combined/LibPlate10-combined_RA_GG",SampleIndex_WellBarcodes,
+                                        "TGCAGG.fastq data/align/",SampleID,"_RA.fastq")) %>%
+  select(Command)
 
+forward
+```
+
+Combining with reverse.     
+```{r}
+reverse<-meta %>% 
+  mutate(Command=paste0("mv data/combined/LibPlate10-combined_RB_GG",SampleIndex_WellBarcodes,
+                                        "TGCAGG.fastq data/align/",SampleID,"_RB.fastq")) %>%
+  select(Command)
+
+write_tsv(bind_rows(forward,reverse), "100.3-batch-rename.sh")
+reverse
+```
 

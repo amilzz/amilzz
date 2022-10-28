@@ -1,0 +1,2 @@
+cat data/lane3/LibPlate10_WWH2_R1.fastq data/lane4/LibPlate10_WWH2_R1.fastq > data/combined/LibPlate10-combined-R1.fastq;     
+cat data/lane3/LibPlate10_WWH2_R2.fastq data/lane4/LibPlate10_WWH2_R2.fastq > data/combined/LibPlate10-combined-R2.fastq;
