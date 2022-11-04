@@ -47,9 +47,9 @@ I'll set up on FARM like so:
 `(base) maccamp@farm:~/amilzz/data/lane4$ ln -s /home/amilzz/projects/LCT/BMAG072/raw2/lane4/LibPlate10_WWH2_R1.fastq`      
 `(base) maccamp@farm:~/amilzz/data/lane4$ ln -s /home/amilzz/projects/LCT/BMAG072/raw2/lane4/LibPlate10_WWH2_R2.fastq`    
 
-This will have two subdirs in data for each lane, working from amilzz, I can combine these with cat.     
-````{sh, eval=FALSE}
+This will have two subdirs in data for each lane, working from amilzz, I can combine these with cat.    
 
+```{sh, eval=FALSE}
 mkdir data/combined
 #this is an inefficient way to do this, but basically:
 cat data/lane3/LibPlate10_WWH2_R1.fastq data/lane4/LibPlate10_WWH2_R1.fastq > data/combined/LibPlate10-combined-R1.fastq
@@ -138,7 +138,7 @@ reverse<-meta %>%
                                         "TGCAGG.fastq data/align/",SampleID,"_RB.fastq")) %>%
   select(Command)
 
-write_tsv(bind_rows(forward,reverse), "100.3-batch-rename.sh")
+write_tsv(bind_rows(forward,reverse), col_names=FALSE, "100.3-batch-rename.sh")
 ```
 
 `bash 100.3-batch-rename.sh` to execute all these commands.   

@@ -1,4 +1,3 @@
-Command
 mv data/combined/LibPlate10-combined_RA_GGACAAGCTATGCAGG.fastq data/align/3103-499_RA.fastq
 mv data/combined/LibPlate10-combined_RA_GGAACAACCATGCAGG.fastq data/align/3103-507_RA.fastq
 mv data/combined/LibPlate10-combined_RA_GGAGATCGCATGCAGG.fastq data/align/3103-515_RA.fastq
