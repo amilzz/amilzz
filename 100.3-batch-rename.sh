@@ -1,99 +1,99 @@
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACAAGCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 2-4_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAACAACCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 4-1_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGATCGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 4-2_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCGAAGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 4-3_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGATAGACATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 5-4_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTATCAGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 5-5_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAATGTTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 5-6_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCATCCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 5-7_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAAACATCGTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 6-3_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAACCGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 6-9_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGCAGGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 6-10_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCGTGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-1_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGCCACATATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-7_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTCCGTCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-8_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACACTGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-9_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCGACAACTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-10_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACATTGGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-15_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAACGCTTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-16_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGTCACTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 8-1_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCTCCTGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 8-7_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGCGAGTAATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 8-8_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTCTTCACATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 8-9_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACAGATTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 9-7_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGTCAAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 10-6_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACCACTGTTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 11-8_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAAGACGGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-1_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGATCCTGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-2_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGAACTTATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-3_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGCTAACGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-4_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTGAAGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-5_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGATGTACTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-6_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCTCTATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-7_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAACGTGATTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 2-11_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAAGGTACATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 2-12_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGATTGAGGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 2-13_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGACTGGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 3-3_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGCTCGGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 3-4_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTGGAACAATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 3-5_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGCACCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-1_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGACACACTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-2_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGCTGATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-8_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACACAGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-9_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAACCACATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-10_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGCATACATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-24_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGGAGAACATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 5-1_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTGGCTTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 5-2_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGCCATGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 5-9_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGGATTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 5-10_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAGATCTGTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 7-5_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACAGCAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 7-6_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAAGACTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 1-4_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCTCAATGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 1-5_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGGTGCGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 1-6_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTGGTGGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 3-13_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGGCTAACTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 4-1_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCTAAGGTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 4-2_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGATGCCTAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 7-18_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACCTCCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 7-19_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAATGGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 7-20_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCTGAGCCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 7-26_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGTACGCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-1_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTTCACGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-2_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGATAGCGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-17_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGAACAGGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-18_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAACGAACGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-32_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACGCTCGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-33_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCACTTCGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-34_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCTGGCATATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 10-11_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGTCGTAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 10-12_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACACGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 10-13_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACGACAAGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 11-6_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGACAGTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 11-7_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGTACAAGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 18-16_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACGTATCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 19-4_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAGCGTTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 21-2_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGAATCTGATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 1-6_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGTCTGTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 1-7_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAAGAGATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 1-8_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGATTGGCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 1-9_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGAGTTAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 1-10_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCATCAAGTTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-1_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACTATGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-2_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCATACCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-3_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGACTAGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-4_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGTGTTCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-5_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAAGGACACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-6_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAAGGAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-7_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGATGAATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-1_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGTGGTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-2_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGAGTCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-3_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCAGTTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-4_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGAGCTGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-5_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTAGGATGATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-6_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAATCCGTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-7_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCACCTTACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-8_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGCCAAGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-9_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACAAGCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton1_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAACAACCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton2_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGATCGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton3_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCGAAGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton4_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGATAGACATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton5_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTATCAGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton6_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAATGTTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton7_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCATCCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton8_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAAACATCGTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton9_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAACCGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton10_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGCAGGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton11_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCGTGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton12_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGCCACATATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton13_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTCCGTCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton14_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACACTGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton15_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCGACAACTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton16_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACATTGGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton17_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAACGCTTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton18_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGTCACTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton19_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCTCCTGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton20_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGCGAGTAATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton21_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTCTTCACATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton22_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACAGATTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton23_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGTCAAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton24_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACCACTGTTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton25_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAAGACGGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv1_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGATCCTGTATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv2_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGAACTTATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv3_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGCTAACGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv4_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTGAAGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv5_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGATGTACTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv6_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCTCTATCTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv7_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAACGTGATTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv8_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAAGGTACATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv9_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGATTGAGGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv10_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGACTGGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv11_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGCTCGGTATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv12_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTGGAACAATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv13_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGCACCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv14_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGACACACTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv15_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGCTGATCTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv16_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACACAGAATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv17_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAACCACATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv18_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGCATACATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv19_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGGAGAACATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv20_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTGGCTTCATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv21_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGCCATGCTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv22_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCGGATTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv23_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAGATCTGTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv24_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACAGCAGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv25_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAAGACTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq1_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCTCAATGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq2_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGGTGCGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq3_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTGGTGGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq4_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGGCTAACTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq5_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCTAAGGTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq6_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGATGCCTAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq7_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACCTCCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq8_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAATGGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq9_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCTGAGCCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq10_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGTACGCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq11_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTTCACGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq12_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGATAGCGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq13_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGAACAGGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq14_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAACGAACGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq15_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACGCTCGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq16_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCACTTCGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq17_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCTGGCATATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq18_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGTCGTAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq19_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACACGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq20_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACGACAAGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq21_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGACAGTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq22_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGTACAAGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq23_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACGTATCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq24_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAGCGTTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq25_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGAATCTGATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike1_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGTCTGTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike2_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAAGAGATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike3_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGATTGGCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike4_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGAGTTAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike5_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCATCAAGTTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike6_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGACTATGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike7_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCATACCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike8_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGACTAGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike9_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGTGTTCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike10_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAAGGACACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike11_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCAAGGAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike12_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGATGAATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike13_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGTGGTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike14_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAGAGTCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike15_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCCAGTTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike16_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGAGCTGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike17_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGTAGGATGATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike18_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGAATCCGTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike19_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGCACCTTACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike20_RA.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGGCCAAGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike21_RA.fastq
 mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGNATGCAGG.fastq data/alignBMAG075/alignLCT5/NA_RA.fastq
 mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGNATGCAGG.fastq data/alignBMAG075/alignLCT5/NA_RA.fastq
 mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGNATGCAGG.fastq data/alignBMAG075/alignLCT5/NA_RA.fastq
@@ -995,102 +995,102 @@ mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGNATGCAGG.fastq data/alignBMAG0
 mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGNATGCAGG.fastq data/alignBMAG075/alignLCT5/NA_RA.fastq
 mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGNATGCAGG.fastq data/alignBMAG075/alignLCT5/NA_RA.fastq
 mv data/combined_BMAG075/LCT-PLATE5-combined_RA_GGNATGCAGG.fastq data/alignBMAG075/alignLCT5/NA_RA.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACAAGCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 2-4_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAACAACCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 4-1_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGATCGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 4-2_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCGAAGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 4-3_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGATAGACATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 5-4_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTATCAGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 5-5_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAATGTTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 5-6_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCATCCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 5-7_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAAACATCGTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 6-3_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAACCGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 6-9_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGCAGGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 6-10_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCGTGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-1_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGCCACATATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-7_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTCCGTCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-8_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACACTGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-9_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCGACAACTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-10_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACATTGGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-15_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAACGCTTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 7-16_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGTCACTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 8-1_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCTCCTGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 8-7_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGCGAGTAATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 8-8_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTCTTCACATGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 8-9_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACAGATTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 9-7_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGTCAAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 10-6_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACCACTGTTGCAGG.fastq data/alignBMAG075/alignLCT5/Cottonwood 11-8_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAAGACGGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-1_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGATCCTGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-2_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGAACTTATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-3_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGCTAACGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-4_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTGAAGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-5_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGATGTACTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-6_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCTCTATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 1-7_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAACGTGATTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 2-11_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAAGGTACATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 2-12_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGATTGAGGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 2-13_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGACTGGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 3-3_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGCTCGGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 3-4_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTGGAACAATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 3-5_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGCACCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-1_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGACACACTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-2_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGCTGATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-8_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACACAGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-9_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAACCACATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-10_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGCATACATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 4-24_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGGAGAACATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 5-1_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTGGCTTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 5-2_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGCCATGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 5-9_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGGATTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 5-10_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAGATCTGTGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 7-5_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACAGCAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Little Alvord 7-6_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAAGACTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 1-4_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCTCAATGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 1-5_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGGTGCGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 1-6_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTGGTGGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 3-13_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGGCTAACTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 4-1_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCTAAGGTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 4-2_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGATGCCTAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 7-18_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACCTCCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 7-19_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAATGGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 7-20_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCTGAGCCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 7-26_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGTACGCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-1_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTTCACGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-2_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGATAGCGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-17_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGAACAGGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-18_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAACGAACGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-32_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACGCTCGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-33_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCACTTCGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 8-34_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCTGGCATATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 10-11_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGTCGTAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 10-12_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACACGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 10-13_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACGACAAGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 11-6_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGACAGTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 11-7_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGTACAAGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 18-16_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACGTATCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 19-4_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAGCGTTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosquito 21-2_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGAATCTGATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 1-6_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGTCTGTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 1-7_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAAGAGATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 1-8_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGATTGGCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 1-9_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGAGTTAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 1-10_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCATCAAGTTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-1_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACTATGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-2_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCATACCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-3_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGACTAGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-4_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGTGTTCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-5_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAAGGACACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-6_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAAGGAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 2-7_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGATGAATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-1_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGTGGTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-2_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGAGTCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-3_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCAGTTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-4_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGAGCTGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-5_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTAGGATGATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-6_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAATCCGTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-7_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCACCTTACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-8_RB.fastq
-mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGCCAAGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike 3-9_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACAAGCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton1_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAACAACCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton2_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGATCGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton3_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCGAAGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton4_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGATAGACATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton5_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTATCAGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton6_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAATGTTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton7_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCATCCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton8_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAAACATCGTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton9_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAACCGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton10_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGCAGGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton11_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCGTGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton12_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGCCACATATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton13_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTCCGTCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton14_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACACTGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton15_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCGACAACTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton16_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACATTGGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton17_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAACGCTTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton18_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGTCACTATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton19_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCTCCTGATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton20_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGCGAGTAATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton21_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTCTTCACATGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton22_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACAGATTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton23_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGTCAAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton24_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACCACTGTTGCAGG.fastq data/alignBMAG075/alignLCT5/Cotton25_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAAGACGGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv1_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGATCCTGTATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv2_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGAACTTATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv3_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGCTAACGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv4_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTGAAGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv5_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGATGTACTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv6_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCTCTATCTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv7_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAACGTGATTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv8_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAAGGTACATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv9_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGATTGAGGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv10_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGACTGGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv11_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGCTCGGTATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv12_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTGGAACAATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv13_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGCACCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv14_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGACACACTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv15_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGCTGATCTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv16_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACACAGAATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv17_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAACCACATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv18_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGCATACATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv19_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGGAGAACATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv20_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTGGCTTCATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv21_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGCCATGCTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv22_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCGGATTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv23_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAGATCTGTGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv24_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACAGCAGATGCAGG.fastq data/alignBMAG075/alignLCT5/LittleAlv25_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAAGACTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq1_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCTCAATGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq2_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGGTGCGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq3_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTGGTGGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq4_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGGCTAACTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq5_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCTAAGGTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq6_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGATGCCTAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq7_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACCTCCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq8_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAATGGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq9_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCTGAGCCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq10_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGTACGCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq11_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTTCACGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq12_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGATAGCGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq13_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGAACAGGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq14_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAACGAACGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq15_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACGCTCGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq16_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCACTTCGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq17_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCTGGCATATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq18_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGTCGTAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq19_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACACGAGATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq20_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACGACAAGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq21_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGACAGTGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq22_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGTACAAGTGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq23_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACGTATCATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq24_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAGCGTTATGCAGG.fastq data/alignBMAG075/alignLCT5/Mosq25_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGAATCTGATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike1_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGTCTGTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike2_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAAGAGATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike3_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGATTGGCTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike4_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGAGTTAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike5_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCATCAAGTTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike6_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGACTATGCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike7_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCATACCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike8_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGACTAGTATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike9_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGTGTTCTATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike10_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAAGGACACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike11_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCAAGGAGCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike12_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGATGAATCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike13_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGTGGTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike14_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAGAGTCAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike15_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCCAGTTCATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike16_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGAGCTGAATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike17_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGTAGGATGATGCAGG.fastq data/alignBMAG075/alignLCT5/Pike18_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGAATCCGTCTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike19_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGCACCTTACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike20_RB.fastq
+mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGGCCAAGACTGCAGG.fastq data/alignBMAG075/alignLCT5/Pike21_RB.fastq
 mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGNATGCAGG.fastq data/alignBMAG075/alignLCT5/NA_RB.fastq
 mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGNATGCAGG.fastq data/alignBMAG075/alignLCT5/NA_RB.fastq
 mv data/combined_BMAG075/LCT-PLATE5-combined_RB_GGNATGCAGG.fastq data/alignBMAG075/alignLCT5/NA_RB.fastq
