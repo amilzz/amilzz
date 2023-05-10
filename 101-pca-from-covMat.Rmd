@@ -19,6 +19,7 @@ library(ggplot2)
 library(ggforce)
 library(dplyr)
 library(plotrix)
+library(plotly)
 ```
 
 ```{r}
@@ -42,7 +43,7 @@ cumvar<-cumsum(eig$values)/sum(eig$values)
 ```{r}
 #adding metadata parameters
 #PC$Location <- factor(meta$Location)
-PC$Group <- factor(meta$Group)
+PC$Group <- factor(meta$Group, levels=c("LCT","RBT","REDBT","YCT"))
 PC$Watershed <- factor(meta$Watershed_basin, levels = c("Willow Creek", "Little Whitehorse Creek", "Whitehorse Creek","Cottonwood Creek","willow whitehorse basin"))
   
 #"MARLAKE", "DGVY_BOTT","TRUCKEE","WALK_BYDYS", "WALK_BYDYC", "WALK_BYDYCM","WALK_LWC","WALK_MCT","WALK_OhCanyon","WALK_UWC","WALK_SKD","WALK_SLV","KNG_WFCC","STN_DCAC","WALK_WLF", "WALK_MILL","ONR_OharrelCreek","WALK_ByDay","WALK_Silver","WALK_Murphy","WALK_SJR"))
@@ -94,8 +95,11 @@ p3 <- ggplot(data=PC, aes(x=PC1, y=PC2, fill=Watershed, shape=Group)) +
         legend.title = element_text(colour="black", size=10, face = "bold"),
         axis.title.x = element_text(size = 12, face = "bold"),
         axis.title.y = element_text(size = 12, face = "bold"),
-        panel.border = element_rect(colour = "black", fill=NA, size=1))
-p3 
+        panel.border = element_rect(colour = "black", fill=NA, size=1)) +
+  scale_fill_manual(values=cbPalette3)
+
+p3
+#ggplotly(p3)
 
 ggsave("outputs/101/wwh.pdf")
 ```
