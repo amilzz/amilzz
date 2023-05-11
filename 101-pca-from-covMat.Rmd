@@ -104,3 +104,32 @@ p3
 ggsave("outputs/101/wwh.pdf")
 ```
 
+```{r}
+
+p4 <- ggplot(data=PC, aes(x=PC1, y=PC3, fill=Watershed, shape=Group)) + 
+   theme_classic() + 
+  geom_point(size=4, alpha=0.7) + 
+  labs(title=paste0("Willow Whitehorse Basin LCT")) +
+  xlab(paste0("PC1 ", round(eig$val[1]*100,2), "%")) +
+  ylab(paste0("PC3 ", round(eig$val[3]*100,2), "%")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_shape_manual(values=c(21,22,23)) +
+  guides(fill = guide_legend(override.aes=list(shape=c(22)))) +
+  # adjusting legend
+  theme(#legend.justification = c("right", "bottom"),
+    #    legend.key = element_rect(),
+     #   legend.position = "top",
+    #    legend.box.just = "top",
+     #   legend.margin = margin(0, 0, 0, 0),
+     #   legend.direction = "horizontal",
+        plot.title =  element_text(size=14, face="bold"),
+        legend.text = element_text(size = 8, face= "bold"),
+        legend.title = element_text(colour="black", size=10, face = "bold"),
+        axis.title.x = element_text(size = 12, face = "bold"),
+        axis.title.y = element_text(size = 12, face = "bold"),
+        panel.border = element_rect(colour = "black", fill=NA, size=1)) +
+  scale_fill_manual(values=cbPalette3)
+
+p4
+```
+
