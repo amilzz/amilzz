@@ -20,6 +20,7 @@ library(ggforce)
 library(dplyr)
 library(plotrix)
 library(plotly)
+library(ggpubr)
 ```
 
 ```{r}
@@ -90,11 +91,11 @@ p3 <- ggplot(data=PC, aes(x=PC1, y=PC2, fill=Watershed, shape=Group)) +
     #    legend.box.just = "top",
      #   legend.margin = margin(0, 0, 0, 0),
      #   legend.direction = "horizontal",
-        plot.title =  element_text(size=14, face="bold"),
+        plot.title =  element_text(size=12, face="bold"),
         legend.text = element_text(size = 8, face= "bold"),
         legend.title = element_text(colour="black", size=10, face = "bold"),
-        axis.title.x = element_text(size = 12, face = "bold"),
-        axis.title.y = element_text(size = 12, face = "bold"),
+        axis.title.x = element_text(size = 10, face = "bold"),
+        axis.title.y = element_text(size = 10, face = "bold"),
         panel.border = element_rect(colour = "black", fill=NA, size=1)) +
   scale_fill_manual(values=cbPalette3)
 
@@ -122,14 +123,22 @@ p4 <- ggplot(data=PC, aes(x=PC1, y=PC3, fill=Watershed, shape=Group)) +
     #    legend.box.just = "top",
      #   legend.margin = margin(0, 0, 0, 0),
      #   legend.direction = "horizontal",
-        plot.title =  element_text(size=14, face="bold"),
+        plot.title =  element_text(size=12, face="bold"),
         legend.text = element_text(size = 8, face= "bold"),
         legend.title = element_text(colour="black", size=10, face = "bold"),
-        axis.title.x = element_text(size = 12, face = "bold"),
-        axis.title.y = element_text(size = 12, face = "bold"),
+        axis.title.x = element_text(size = 10, face = "bold"),
+        axis.title.y = element_text(size = 10, face = "bold"),
         panel.border = element_rect(colour = "black", fill=NA, size=1)) +
   scale_fill_manual(values=cbPalette3)
 
 p4
 ```
 
+```{r}
+
+ggarrange(p3+theme(legend.position = "none"), p4+ggtitle(""), 
+          ncol=2, widths = c(1,1.6))
+
+ggsave("outputs/101/wwh-pcs123.pdf", width=8)
+
+```
