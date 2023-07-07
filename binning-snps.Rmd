@@ -1,0 +1,82 @@
+---
+title: "binning-snps"
+output: html_document
+date: "2023-07-07"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+Get data     
+```{r}
+dat<-read_csv("allcontractLCTxRBT_CalledLoci.csv")
+
+# filter
+df<-dat %>% filter(Diff > 0.95) %>% filter(PropMissing1 < 0.05 ) %>% filter(PropMissing2 < 0.05)
+df
+```
+
+Get chrom lengths from fasta index file. 
+
+```{r}
+chroms<-read_tsv("GCF_002163495.1_Omyk_1.0_genomic.fna.fai", 
+                 col_names = c("Chromosome","Length","Offset","Linebases","Linewidth")) %>%
+  select(Chromosome,Length)
+```
+
+
+```{r}
+#joining chrom lengths to snp data 
+df2<-df %>% left_join(chroms) %>% group_by(Chromosome) 
+
+#Putting into bins of a length 
+df3<-df2 %>% mutate(Bin=cut(Position, breaks=seq(0, unique(Length), 1e6) )) %>%
+  mutate(ChromBin=paste0(Chromosome,"-",Bin))
+```
+
+Randomly sample a 'ChromBin'
+
+```{r}
+df4<-df3 %>% group_by(ChromBin) %>% slice_sample(n=1) %>%
+  group_by(Chromosome) %>% arrange(Chromosome, Position) %>% mutate(Offset=Position-lag(Position)) 
+
+nas<-df4[is.na(df4$Offset),]
+mills<-df4 %>% filter(Offset > 1e6)
+
+comb<-bind_rows(mills,nas) %>% arrange(Chromosome, Position)
+
+write_csv(comb, "allcontractLCTxRBT_CalledLoci-filtered.csv")
+```
+
+Sanity checks
+
+```{r}
+nrow(df3)
+length(unique(df3$ChromBin))
+
+nrow(df4)
+length(unique(df4$ChromBin))
+
+sum<-df4 %>% ungroup() %>% group_by(Chromosome) %>% summarize(Count=n())
+sum$Chromosome<-as.factor(sum$Chromosome)
+
+df5<-df4 %>% group_by(Chromosome) %>% arrange(Chromosome, Position) %>% mutate(Offset=Position-lag(Position))
+
+```
+
+```{r}
+ggplot(sum) +
+  geom_col(aes(x=Chromosome, y=Count)) +
+  theme_bw() +
+  theme(axis.text.x=element_text(angle=45, vjust=1, hjust=1)) +
+  theme(panel.grid=element_blank()) +
+  theme(axis.title=element_text(face="bold"))
+
+
+```
+
