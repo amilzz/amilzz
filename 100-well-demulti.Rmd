@@ -120,7 +120,7 @@ srun -p high -t 2:00:00 --nodes=1 parallel -j 2 < 100.2-batch-combine-example.sh
 This can be done at many different times. Using the demultiplexed files in data/combined I'll move them to data/split. These also can be made as links.     
 
 ```{r}
-meta<-read_csv("meta/WWH2_libraryPlate10.csv")
+meta<-read_csv("~/Desktop/Demultiplexing_BMAG076/alignRAP1.csv")
 meta
 ```
 
@@ -128,8 +128,8 @@ Our files look like LibPlate10-combined_RA_GGAAACATCGTGCAGG.fastq and so on. I'l
 
 ```{r}
 forward<-meta %>% 
-  mutate(Command=paste0("mv data/combined/LibPlate10-combined_RA_GG",SampleIndex_WellBarcodes,
-                                        "TGCAGG.fastq data/align/",SampleID,"_RA.fastq")) %>%
+  mutate(Command=paste0("mv data/combined/RAP1-combined_RA_GG",SampleIndex_WellBarcodes,
+                                        "TGCAGG.fastq data/alignRAP1/",SampleID,"_RA.fastq")) %>%
   select(Command)
 
 forward
@@ -138,10 +138,11 @@ forward
 Combining with reverse.     
 ```{r}
 reverse<-meta %>% 
-  mutate(Command=paste0("mv data/combined/LibPlate10-combined_RB_GG",SampleIndex_WellBarcodes,
-                                        "TGCAGG.fastq data/align/",SampleID,"_RB.fastq")) %>%
+  mutate(Command=paste0("mv data/combined/RAP1-combined_RB_GG",SampleIndex_WellBarcodes,
+                                        "TGCAGG.fastq data/alignRAP1/",SampleID,"_RB.fastq")) %>%
   select(Command)
 
+reverse
 write_tsv(bind_rows(forward,reverse), col_names=FALSE, "100.3-batch-rename.sh")
 ```
 
